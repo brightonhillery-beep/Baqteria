@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .sales {
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #111;
+      color: white;
+    }
+    .benefits {
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-left: 5px solid #111;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #111;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fashion Store</h1>
+    <p>Your one-stop shop for trendy outfits</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200" alt="Dress">
+      <h3>Stylish Dress</h3>
+      <p>$49.99</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200" alt="Shoes">
+      <h3>Classic Shoes</h3>
+      <p>$79.99</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200" alt="Jacket">
+      <h3>Modern Jacket</h3>
+      <p>$99.99</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200" alt="Watch">
+      <h3>Luxury Watch</h3>
+      <p>$149.99</p>
+    </div>
+  </section>
+
+  <section class="sales">
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Offer</th>
+        <th>Discount</th>
+        <th>Valid Until</th>
+      </tr>
+      <tr>
+        <td>Summer Collection</td>
+        <td>30% Off</td>
+        <td>July 15, 2025</td>
+      </tr>
+      <tr>
+        <td>Footwear Festival</td>
+        <td>25% Off</td>
+        <td>August 10, 2025</td>
+      </tr>
+      <tr>
+        <td>Accessories Bonanza</td>
+        <td>40% Off</td>
+        <td>September 5, 2025</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="benefits">
+    <h2>Why Shop With Us?</h2>
+    <p>At Fashion Store, we believe in bringing the latest trends at the most affordable prices. Enjoy free shipping, easy returns, and exclusive discounts on our premium collection. Shop with confidence knowing that quality and style are guaranteed.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
